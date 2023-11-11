@@ -32,4 +32,8 @@ comando para isso é chmod +x nome_arquivo.sh.
     ~~~
 
 Você pode utilizar o editor de código de sua preferência. Mas recomendo a utilização do VIM ou VsCode.
-:wq
+
+## Dica
+Este volume compartilhado é criado um projeto angular no container.
+Apesar de volume ser utilizado para persistir dados. Os dados persistido aqui são de código baixado pelo ng new blog
+
