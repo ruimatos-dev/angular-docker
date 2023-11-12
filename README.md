@@ -35,6 +35,5 @@ Você pode utilizar o editor de código de sua preferência. Mas recomendo a uti
 
 ## Dica
 A pasta volume que compartilha dados entre container e o host tem um projeto   chamado blog.
-Então a cada criação de container um novo projeto blog será criado.
-Os dados persistido aqui são de novos projetos em angular.
-
+Se projeto blog já foi criado  ele dará continuidade a códificação.
+Senão criará um novo projeto limpo.
