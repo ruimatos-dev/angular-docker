@@ -6,7 +6,7 @@ chown -R node:node blog/
 # /app/blog é nativo da imagem
 # preciso verificar se /appaux/blog tem
 # se não tiver copia o projeto da imagem para volume compartilhado
-if [ -d /appaux/blog];
+if [ -d /appaux/blog ];
 then
   echo "The directory Exists"
 else
