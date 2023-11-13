@@ -17,14 +17,14 @@ comando para isso é chmod +x nome_arquivo.sh.
     ~~~
     $ chmod +x nome_arquivo.sh
     ~~~
-    
+
 - Para buildar o projeto, ou seja criar uma imagem em sua máquina faça
     ~~~
     $ ./build.sh
     ~~~
 - Para rodar o container
     ~~~
-    $ ./start.sh 
+    $ ./start.sh
     ~~~
 - Para remover o container
     ~~~
@@ -33,6 +33,12 @@ comando para isso é chmod +x nome_arquivo.sh.
 
 Você pode utilizar o editor de código de sua preferência. Mas recomendo a utilização do VIM ou VsCode.
 
+## Rodar projeto em docker compose
+~~~
+$ docker compose build
+
+$ docker compose up -d
+~~~
 ## Dica
 A pasta volume que compartilha dados entre container e o host tem um projeto   chamado blog.
 Se projeto blog já foi criado  ele dará continuidade a códificação.

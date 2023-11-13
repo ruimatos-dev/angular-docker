@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  app:
+    container_name: app1
+    hostname: app1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ruimatos/angular
+    ports:
+      - 3000:3000
+    volumes:
+      - ./volume:/appaux
